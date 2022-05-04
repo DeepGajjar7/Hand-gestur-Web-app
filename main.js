@@ -1,7 +1,7 @@
 var prediction1="";
 
 console.log("ml5 version="+ml5.version);
-var classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/7iK4HEYgh/model.json',model_loaded);
+var classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/q7ZyfiPDb/model.json',model_loaded);
 function model_loaded(){
     console.log("model is loaded");
 }
